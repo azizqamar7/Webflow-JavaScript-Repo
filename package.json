@@ -1,0 +1,21 @@
+{
+  "name": "webflow-javascript-repo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "serve",
+    "build": "esbuild index.js --bundle --outfile=dist/index.js --watch",
+    "build-by-file": "node builder.js"
+  },
+  "author": "Qamar Aziz",
+  "license": "ISC",
+  "devDependencies": {
+    "esbuild": "^0.20.0",
+    "serve": "^14.2.1"
+  },
+  "dependencies": {
+    "gsap": "^3.12.5"
+  }
+}

@@ -2,11 +2,11 @@
   "name": "webflow-javascript-repo",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "serve": "serve",
-    "build": "esbuild index.js --bundle --outfile=dist/index.js --watch",
+    "build": "esbuild src/index.js --bundle --outfile=dist/src/index.js --watch",
     "build-by-file": "node builder.js"
   },
   "author": "Qamar Aziz",

@@ -4,7 +4,7 @@ require('esbuild')
     entryNames: '[dir]/[name]-[hash]',
     outbase: 'src',
     bundle: true,
-    minify: false,
+    minify: true,
     outdir: 'out',
   })
   .catch(() => {
